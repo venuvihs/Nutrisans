@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nutrisans</title>
+    
+
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/8.10.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/8.10.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/8.10.0/firebase-database.js"></script>
+    <!-- 
+      initialize the SDK after all desired features are loaded, set useEmulator to false
+      to avoid connecting the SDK to running emulators.
+    -->
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+
+        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+<!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: #F3E9E3;">Nutrisans</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="dashboard.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resources.html">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="plateguide.html">Plate Guide</a>
+            </li>            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column text-center">
+    <main class="px-3">
+    <h1>About</h1>
+    <p class="lead" style="color: #22341F; font-weight: bold; font-size: small; padding-left: 200px; padding-right: 200px">Nutrisans is a website application that empowers its users to create healthy meals and improve their lifestyle through nutrition.
+<br><br>
+      Proper nutrition plays a profound role in maintaining a healthy body and preventing diet-based disease. Poor nutrition habits and eating patterns can lead to higher risks for micronutrient deficiencies and diet-based illnesses, including cardiovascular disease, hypertension, cancer, and diabetes. According to a study performed at the National Institute of Health, “Nearly one third of the US population aged over 9 years is at risk of a deficiency in at least one vitamin, or has anemia." According to the Centers for Disease Control and Prevention, “Heart disease remains the leading cause of death among men and women in the United States and accounts for 1 in 4 deaths nationwide." 
+<br><br>
+Nutrisans allows the user to login and collects all their diet related info (allergies, food intolerances, dietary restrictions, etc) to store on their personal profile. From there, the user can search for a food and view its full nutritional information. The personalized log-in system allows for a machine learning algorithm to be implemented in order to predict the user’s eating patterns overtime and display various insights, such as macronutrient and micronutrient values. This enables the user to better understand their nutrition patterns and to ingest all-inclusive meals that will maintain good health and decrease risks for diet-based diseases. 
+<br><br>
+Nutrisans also contains a Plate Guide, which visualizes the United States MyPlate guidelines for the core food groups: fruit, vegetables, grains, protein, and dairy. The user may select a food group and then click on the “Generate Serving Suggestion” button to receive a randomly generated serving recommendation. This enables the user to gain insight into what essential food groups they should include and also examples for these food group portions.
+<br><br>
+Disclaimer: Nutrisans is a generalized tool for a user looking to make steps towards a healthier and more nutrient-complete eating lifestyle. Nutrisans is not to replace the personalized guidance of a nutrition counselor. Individuals will vary on their nutritional needs depending on a variety of factors, including age, gender, pre-existing conditions, level of activity, and more.
+</p>
+    </main>
+        <!-- Footer -->
+    <footer class="mt-auto text-white-50">
+    <p>Created Sanskar & Sampada</p>
+    </footer>
+  </div>
+    
+    <!-- Option 1: Bootstrap Bundle with Popper-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
