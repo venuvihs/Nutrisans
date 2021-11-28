@@ -1,0 +1,26 @@
+body {
+  background: rgb(251,144,73);
+  background: linear-gradient(90deg, rgba(251,144,73,1) 0%, rgba(223,178,89,1) 57%, rgba(191,204,148,1) 100%);
+}
+
+h1 {
+  color: #F3E9E3;
+  line-height: 100px;
+}
+
+.logo {
+  margin-top: 50px;
+}
+.right-cover {
+  color: #000000 !important; 
+  background-color:#FFFFFF !important;  
+  height: 90vh; 
+}
+.left-cover {
+  background: rgba(0, 0, 0, 0.0) !important;
+}
+.bolded {
+  color: #22341F; 
+  font-weight: bold; 
+/*   font-style: italic; */
+}
